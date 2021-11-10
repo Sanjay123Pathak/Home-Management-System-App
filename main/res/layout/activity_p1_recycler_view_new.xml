@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+   android:layout_margin="20dp"
+    android:background="@color/purple_200"
+    tools:context=".P1RecyclerViewNewActivity">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageId"
+        android:layout_margin="20dp"
+        android:src="@drawable/mixed"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item name "
+        android:id="@+id/itemName"
+        android:textStyle="bold"
+        android:textSize="30dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cost name"
+        android:textSize="20dp"
+        android:id="@+id/costName"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description name"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/green"
+        android:id="@+id/descName"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dateName"
+        android:gravity="center"
+        android:text="Date name"
+        />
+
+</LinearLayout>
